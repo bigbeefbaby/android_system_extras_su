@@ -24,11 +24,11 @@
 #endif
 #define LOG_TAG "su"
 
-// Lineage-specific behavior
-#define LINEAGE_ROOT_ACCESS_DISABLED 0
-#define LINEAGE_ROOT_ACCESS_APPS_ONLY 1
-#define LINEAGE_ROOT_ACCESS_ADB_ONLY 2
-#define LINEAGE_ROOT_ACCESS_APPS_AND_ADB 3
+// Luna-specific behavior
+#define LUNA_ROOT_ACCESS_DISABLED 0
+#define LUNA_ROOT_ACCESS_APPS_ONLY 1
+#define LUNA_ROOT_ACCESS_ADB_ONLY 2
+#define LUNA_ROOT_ACCESS_APPS_AND_ADB 3
 
 #define DAEMON_SOCKET_PATH "/dev/socket/su-daemon/"
 
