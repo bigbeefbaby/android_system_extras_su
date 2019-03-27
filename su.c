@@ -266,7 +266,7 @@ static __attribute__((noreturn)) void allow(struct su_context* ctx, const char* 
 }
 
 int access_disabled(const struct su_initiator* from) {
-    char lineage_version[PROPERTY_VALUE_MAX];
+    char luna_version[PROPERTY_VALUE_MAX];
     char build_type[PROPERTY_VALUE_MAX];
     int enabled;
 
